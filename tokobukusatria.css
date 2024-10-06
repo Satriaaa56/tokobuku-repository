@@ -1,0 +1,221 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230328/pngtree-education-bookshelf-small-desk-lamp-background-image_2120210.jpg);
+    background-size: 100% 38%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 75px;
+    margin: 75px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0,1);
+}
+
+.promo-text h2 {
+    font-size: 30px;
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+.promo-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.promo-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.promo-image img {
+    max-width: 400px;
+    display: flex;
+    height: auto;
+    border-radius: 2px;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.featured-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.featured-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.featured-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    min-width: 350px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-info h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.item-info .price {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.harga-awal {
+    text-decoration: line-through;
+    color: red;
+    font-size: 1.2em;
+    margin-right: 100px;
+}
+
+.harga-diskon {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .featured-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        min-width: 100%;
+    }
+}
+
+.about-section {
+    width: 100%;
+}
+
+.banner {
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.content-section {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    width: 60%;
+}
+
+.text-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
